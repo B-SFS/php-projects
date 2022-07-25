@@ -1,0 +1,82 @@
+
+body {
+    height: 100vh;
+}
+
+.proceedButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.mainConainer{
+    width: 50%;
+}
+#objective {
+    display: none;
+}
+#educationContainer{
+    display: flex;
+    flex-direction: column;
+    display: none;
+}
+#experienceContainer{
+    display: flex;
+    flex-direction: column;
+    display: none;
+}
+
+#skillsContainer{
+    display: flex;
+    flex-direction: column;
+    display: none;
+}
+
+#programmingLanguagesContainer
+{
+    display: flex;
+    flex-direction: column;
+    display: none;
+}
+
+#frameworksContainer{
+    display: flex;
+    flex-direction: column;
+    display: none;
+}
+#librariesContainer{
+    display: flex;
+    flex-direction: column;
+    display: none;
+}
+#spokenLangugesContainer{
+    display: flex;
+    flex-direction: column;
+    display: none;
+}
+#interestsContainer{
+    display: flex;
+    flex-direction: column;
+    display: none;
+}
+#socialLinks{
+    display: flex;
+    flex-direction: column;
+    display: none;
+}
+#cvColor{
+    display: flex;
+    flex-direction: column;
+    display: none;
+}
+
+
+@media (min-width:199px)and (max-width:800px){
+    .mainConainer{
+        width: 100%;
+    }
+}
+
+#cvSearch{
+    display: none;
+}

@@ -1,0 +1,361 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suhaib></title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/style.css">
+
+</head>
+<style>
+    .header{
+        background-color: #cd1313;
+    }
+    *{
+    text-decoration: none;
+    /* list-style:none ; */
+    scroll-behavior: smooth;
+}
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.contact{
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    padding: 0px;
+}
+nav{
+    width: 100%;
+
+}
+.content{
+    padding: 0px;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border:2px solid grey;
+    position: relative;
+}
+.info{
+background-color:#cd1313;
+padding: 0;
+}
+.section-header{
+    background-color: #3f4754;
+    width: 100%;
+}
+section{
+    width: 100%;
+    height: 100%;
+    /* background-color: red; */
+}
+.dicussion{
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+.email-phone{
+    text-decoration: underline;
+}
+.section-header h6{
+    color: white;
+    font-size: 130%;
+    padding: 2%;
+
+}
+.section-header-disucssion li{
+    padding-top:0%;
+    padding-bottom: 3%;
+    font-size: 130%;
+    font-weight: 500;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+.row{
+    margin-top: 3rem;
+}
+.main-info{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    border-bottom:1px solid black;
+    width: 200px;
+}
+.main-info h2{
+    font-size: 170%;
+}
+.main-info p{
+font-size: 110%;
+font-family: 'Roboto', sans-serif;
+font-weight: 600;
+width: 100%;
+}
+.date{
+    font-size: 40%;
+}
+
+.main-info-skills{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    border-bottom:1px solid black
+}
+.main-info-skills h2{
+ font-size: 170%;
+}
+.footer{
+    width: 100%;
+    background-color:#cd1313 ;
+    margin-top: 0.5rem;
+    padding:0.5rem 0 0.2rem 0;
+}
+.footer ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+}
+.footer li a{
+color: rgb(78, 74, 74);
+font-size: 150%;
+margin-left: 2rem;
+}
+li{
+    font-size: 130%;
+}
+.pContainer{
+    width: 100px;
+}
+.pContainer p{
+    width: 100px;
+}
+.lastRowInterest{
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+@media print{
+#printCV{
+    display: none;
+}
+}
+</style>
+<body>
+<div class="container">
+    <a><button type="button" onclick="window.print()" id="printCV" class="btn btn-success">Print CV</button></a>
+    <a href="../index.php"><button type="button" id="printCV" class="btn btn-success">Create Another CV</button></a>
+</div>
+    <section class="content container">
+        <header>
+            <div>
+                <nav class="navbar navbar-expand-lg navbar-light header">
+                    <a class="navbar-brand text-light" href="#">Suhaib</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto  active ">
+                            <li class="nav-item">
+                                <a class="nav-link  text-light" href="#experience">Experience <span
+                                        class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link  text-light" href="#education">Education</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link  text-light" href="#skills">Skills</a>
+                            </li>  
+                            <li class="nav-item">
+                                <a class="nav-link  text-light" href="#interest">Interests</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <!-- aside -->
+            <section>
+                <div class="container">
+                    <div class="row m-0">
+                        <div
+                            class="info col-lg-3 col-md-4 col-sm-6 ">
+                            <div>
+                                <img src="https://scontent.famm3-3.fna.fbcdn.net/v/t39.30808-6/274312528_1271211713368973_8785282944855361661_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=174925&_nc_eui2=AeEkJVRfBNCLeMueDj4Dkj7Mhwmw_18ALU-HCbD_XwAtT-2BxP9l8f-iJraTubonE6o9s__nJRVc62ruyV_A5X2D&_nc_ohc=fOXbCZSWk60AX_k5d6z&tn=S7wYYTRoVCaN4FzI&_nc_zt=23&_nc_ht=scontent.famm3-3.fna&oh=00_AT8X6evfsiIaFmV2UyWVG2QFix1Ix6Hnhfxgnw9QWsLs6g&oe=62E4DC8C"
+                                    class="col-lg-12  img" alt="">
+                                <p
+                                    class="text-uppercase text-light col-lg-12   align-items-center pt-2 text-center font-weight-bold">
+                                    suhaib firas yousef silwadi</p>
+                                <div class="container-fluid">
+                                    <div>
+                                        <!-- contact info -->
+                                        <section class="contact">
+                                            <div
+                                                class="col-lg-12 text-capitalize  section-header text-light p-1 text-center font-weight-bold">
+                                                contact
+                                            </div>
+                                            <div class="col-lg-12 text-capitalize text-light email-phone mt-4 mb-2">
+                                                <i class="fa-solid fa-at"></i>
+                                               <a class="text-light " href="mailto: silwadi35@gmail.com">silwadi35@gmail.com</a>
+                                            </div>
+                                            <div class="col-lg-12 text-light email-phone mb-2">
+                                                <i class="fa fa-phone" aria-hidden="true"></i>
+                                                <a class="text-light" href="tel:+962788773537" >07887735373</a>
+                                            </div>
+                                            <div class="col-lg-12 text-light ">
+                                                <i class="fa-solid fa-location-dot"></i>
+                                                Jordan-Amman
+                                            </div>
+                                        </section>
+                                        <!-- languages -->
+                                        <section class=" text-center  text-capitalize mt-4">
+                                            <div class="col-lg-12  section-header text-center ">
+                                                <h6>Programming Languages</h6>
+                                            </div>
+                                            <div class="section-header-disucssion mt-3">
+                                            <ul class="list-unstyled">
+                                                <li>HTML</li><li>CSS</li><li>JavaScript</li><li>Python</li><li>Php</li>
+                                            </ul>
+                                            </div>
+                                        </section>
+                                        <!-- libraries -->
+                                        <section class=" text-center text-capitalize">
+                                            <div class="col-lg-12 text-capitalize   section-header text-center ">
+                                                <h6>Libraries</h6>
+                                            </div>
+                                            <div class="section-header-disucssion mt-3">
+                                                <ul class="list-unstyled">
+                                                    <li>Angular</li><li>JQuery</li><li>Bootstrap</li>
+                                                </ul>
+                                            </div>
+                                        </section>
+                                        <!-- frameworks -->
+                                        <section class=" text-center text-capitalize">
+                                            <div class="col-lg-12 text-capitalize   section-header text-center ">
+                                                <h6>frameworks</h6>
+                                            </div>
+                                            <div class="section-header-disucssion mt-3">
+                                                <ul class="list-unstyled">
+                                                    <li>Node.js</li>
+                                                </ul>
+                                            </div>
+                                        </section>
+                                        <!-- spoken languages -->
+                                        <section class=" text-center">
+                                            <div class="col-lg-12 text-capitalize   section-header text-center">
+                                                <h6 class="text-light">spoken languages</h6>
+                                            </div>
+                                            <div class="section-header-disucssion text-capitalize d-flex flex-column justify-content-center align-content-center mt-3">
+                                                <ul class="list-unstyled">
+                                                    <li>Arabic (Native Speaker)</li><li>English (Fluent Speaker)</li>
+                                                </ul>
+                                            </div>
+                                        </section>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- main content -->
+                        <div class="col">
+                          <div class="row container ml-1">
+                              <!-- objectives -->
+                              <div class="col-12 main-info text-center mb-3">
+                                  <h2  class="text-uppercase text-secondary  ">objective</h2>
+                                  <p class="text-capitalize">Front-End Developer with proven Websites Design Using Html , Css , Bootstrap , JS , Ajax ,  Php </p>  
+                              </div>
+                              <!-- experience -->
+                              <div id="experience" class="col-12 text-sm-center  main-info text-center text-capitalize">
+                                  <h2 class="text-capitalize text-secondary ">Experience</h2>
+                                  <div>
+                                     <ul class="">
+                                        <li>Graduation Project : Hostel Booking System (I worked the front end for the website)</li><li>Developed Multi front end websites</li><li>Developed Rest Api(Express)</li><li>DataBase: My-SQL, Oracle(Application Express), Oracle (SQL developer), and good Knowledge in SQL basics(DDL,DML,DCL)</li><li>Problem Solving</li><li>Technical Support</li>
+                                     </ul>
+                                  </div>
+                              </div>
+                          </div>
+                         
+                          <!-- education -->
+                          <div  class="row text-center ml-1">
+                              <div  id="education" class="col-12 main-info mb-3 ">
+                                <div>
+                                     <h2 class="text-secondary text-uppercase">education </h2>
+                                <ul class="">
+                                    <li>The World Islamic Science University W.I.S.E  2018/2022</li>
+                                    <li>Al_Hussain Technical university  06-2022/15-8-2022</li>
+                                </ul>
+                                   
+                                </div>
+                              </div>
+                              <div id="skills" class="col-12 main-info-skills ">
+                                  <div class="text-center">
+                                    <h2 class="text-secondary">skills</h2>
+                                    <ul class="text-capitalize ">
+                                        <li>Creative</li><li>Patient</li><li>Hard Working</li><li>Energetic</li><li>Install and configure computer hardware, operating system and applications</li><li>Solving hardware problems that happens to desktop and laptops</li><li>Typing fast on the keyboard with score 75 wpm</li><li>Strong determinations, strong self learning, team work, flexibility in learning new skills</li>
+                                    </ul>
+                                  </div>
+                              </div>
+                          </div>
+                          <!-- interest -->
+                          <div class="row lastRowInterest" id="interest">
+                              <div class="col-12 text-center">
+                                  <div>
+                                    <h2  style="color:grey">interest</h2>
+                                    <ul class="text-capitalize text-center ">
+                                        <li>Artificial Intellegince</li>
+                                        <li>Mobile Applications devlopment</li>
+                                        <li>Games Development</li>
+                                    </ul>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+         <footer>
+                <section class="footer">
+                    <ul>
+                        <li><a href="https://github.com/B-SFS" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/suhaib-silwadi-613916214/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+                        <li><a href="https://web.facebook.com/suhaib.silwadi.50" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+                        <li><a href="https://www.instagram.com/suhaibsilwadi/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                    </ul>
+                </section>
+
+        </footer> 
+
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+        integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous">
+    </script>
+
+</body>
+
+</html>
